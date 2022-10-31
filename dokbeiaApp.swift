@@ -20,7 +20,7 @@ import SwiftUI
 struct dokbeiaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+               LoanCar()
         }
     }
 }
