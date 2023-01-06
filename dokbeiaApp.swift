@@ -16,8 +16,16 @@ import SwiftUI
  
  */
 
+
+
 @main
 struct dokbeiaApp: App {
+    
+    init(){
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor(Color.accentColor)]
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor(Color.accentColor)]
+    }
+    
     var body: some Scene {
         WindowGroup {
                LoanCar()
